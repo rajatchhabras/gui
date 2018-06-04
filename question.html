@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img id="myImage" src="1.jpg" style="width:300px">
+<img id="myImage1" src="2.jpg" style="width:300px">
+<img id="myImage2" src="3.jpg" style="width:300px"><br><br>
+
+<button onclick="fun()">swap the images</button>
+<script>
+	function fun()
+	{
+		document.getElementById('myImage').src="2.jpg";
+		document.getElementById('myImage1').src="3.jpg";
+		document.getElementById('myImage2').src="1.jpg";
+	}
+</script>
+
+</body>
+</html>
